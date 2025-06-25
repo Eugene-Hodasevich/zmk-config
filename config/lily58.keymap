@@ -37,7 +37,7 @@
             //                       |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &trans          &trans     &trans        &trans    &trans                         &trans        &trans             &kp LC(UP)    &trans         &trans         &trans
+&trans  &trans          &trans     &trans        &trans    &trans                         &trans        &trans             &kp LC(UP)    &trans         &trans         &kp DELETE
 &trans  &trans          &trans     &kp ASTERISK  &trans    &trans                         &kp F7        &kp K_SCROLL_UP    &kp UP        &kp PAGE_UP    &trans         &trans
 &trans  &kp UNDERSCORE  &kp MINUS  &kp SLASH     &kp PLUS  &kp EQUAL                      &kp LC(LEFT)  &kp LEFT           &kp DOWN      &kp RIGHT      &kp LC(RIGHT)  &kp END
 &trans  &trans          &trans     &trans        &trans    &trans     &trans    &kp HOME  &trans        &kp K_SCROLL_DOWN  &kp LC(DOWN)  &kp PAGE_DOWN  &trans         &trans
