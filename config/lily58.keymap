@@ -37,10 +37,10 @@
             //                       |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &kp F1          &kp F2         &kp F3    &kp F4          &kp F5                                 &kp F12            &none              &kp PAGE_UP    &none             &none            &kp DELETE
-&none   &kp F6          &kp F7         &kp F8    &kp F9          &kp F10                                &kp K_MUTE         &kp C_VOLUME_DOWN  &kp UP         &kp C_VOLUME_UP   &kp PRINTSCREEN  &none
-&trans  &kp UNDERSCORE  &kp MINUS      &kp PLUS  &kp EQUAL       &none                                  &kp LC(LEFT)       &kp LEFT           &kp DOWN       &kp RIGHT         &kp LC(END)      &kp END
-&trans  &none           &kp LESS_THAN  &none     &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp F11    &kp HOME  &kp RIGHT_BRACKET  &kp RIGHT_BRACE    &kp PAGE_DOWN  &kp GREATER_THAN  &kp BACKSLASH    &trans
+&trans  &kp F1          &kp F2         &kp F3    &kp F4          &kp F5                                 &kp F12            &none              &kp PAGE_UP    &none             &none                &kp DELETE
+&none   &kp F6          &kp F7         &kp F8    &kp F9          &kp F10                                &kp K_MUTE         &kp C_VOLUME_DOWN  &kp UP         &kp C_VOLUME_UP   &kp PRINTSCREEN      &none
+&trans  &kp UNDERSCORE  &kp MINUS      &kp PLUS  &kp EQUAL       &none                                  &kp LC(LEFT)       &kp LEFT           &kp DOWN       &kp RIGHT         &kp LC(RIGHT_ARROW)  &kp END
+&trans  &none           &kp LESS_THAN  &none     &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp F11    &kp HOME  &kp RIGHT_BRACKET  &kp RIGHT_BRACE    &kp PAGE_DOWN  &kp GREATER_THAN  &kp BACKSLASH        &trans
                                        &trans    &trans          &trans            &trans     &trans    &trans             &trans             &trans
             >;
         };
