@@ -6,7 +6,6 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/pointing.h>
 
 / {
     keymap {
@@ -38,11 +37,11 @@
             //                       |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &none  &none                &none              &none   &none                              &none           &none       &kp PAGE_UP    &msc SCRL_UP    &none                &none
-&trans  &none  &kp LG(PRINTSCREEN)  &kp C_VOLUME_UP    &none   &none                              &msc SCRL_LEFT  &kp K_BACK  &kp UP         &kp K_FORWARD   &msc SCRL_RIGHT      &none
-&trans  &none  &kp PRINTSCREEN      &kp C_VOLUME_DOWN  &none   &none                              &kp LC(LEFT)    &kp LEFT    &kp DOWN       &kp RIGHT       &kp LC(RIGHT_ARROW)  &kp END
-&trans  &none  &kp LS(PRINTSCREEN)  &kp K_MUTE         &none   &none   &kp CAPSLOCK    &kp HOME   &none           &none       &kp PAGE_DOWN  &msc SCRL_DOWN  &none                &trans
-                                    &trans             &trans  &trans  &kp ENTER       &kp SPACE  &trans          &trans      &mo 4
+&trans  &none  &none                &none              &none   &none                              &none         &none       &kp PAGE_UP    &none          &none                &none
+&trans  &none  &kp LG(PRINTSCREEN)  &kp C_VOLUME_UP    &none   &none                              &none         &kp K_BACK  &kp UP         &kp K_FORWARD  &none                &none
+&trans  &none  &kp PRINTSCREEN      &kp C_VOLUME_DOWN  &none   &none                              &kp LC(LEFT)  &kp LEFT    &kp DOWN       &kp RIGHT      &kp LC(RIGHT_ARROW)  &kp END
+&trans  &none  &kp LS(PRINTSCREEN)  &kp K_MUTE         &none   &none   &kp CAPSLOCK    &kp HOME   &none         &none       &kp PAGE_DOWN  &none          &none                &trans
+                                    &trans             &trans  &trans  &kp ENTER       &kp SPACE  &trans        &trans      &mo 4
             >;
         };
 
