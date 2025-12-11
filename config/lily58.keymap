@@ -74,11 +74,11 @@
 
         layer_4 {
             bindings = <
-&none  &none  &none  &none  &none  &none                  &to 1  &to 2  &to 3   &none  &to 0  &none
-&none  &none  &none  &none  &none  &none                  &none  &none  &none   &none  &none  &none
-&none  &none  &none  &none  &none  &none                  &none  &none  &none   &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none    &none  &none  &none  &none   &none  &none  &none
-                     &none  &none  &none  &none    &none  &none  &none  &trans
+&none  &none  &none  &none  &none  &none                  &tog 1  &tog 2  &tog 3  &none  &tog 0  &none
+&none  &none  &none  &none  &none  &none                  &none   &none   &none   &none  &none   &none
+&none  &none  &none  &none  &none  &none                  &none   &none   &none   &none  &none   &none
+&none  &none  &none  &none  &none  &none  &none    &none  &none   &none   &none   &none  &none   &none
+                     &none  &none  &none  &none    &none  &none   &none   &trans
             >;
         };
     };
