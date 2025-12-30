@@ -13,7 +13,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "MY_ALT";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT>, <&kp LEFT_ALT>, <&kt LEFT_ALT>;
+            bindings = <&kp LEFT_ALT>, <&kp LEFT_ALT>, <&sk LEFT_ALT>;
 
             tapping-term-ms = <270>;
         };
@@ -22,7 +22,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "MY_CTRL";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL>, <&kp LCTRL>, <&kt LCTRL>;
+            bindings = <&kp LCTRL>, <&kp LCTRL>, <&sk LCTRL>;
 
             tapping-term-ms = <270>;
         };
@@ -31,7 +31,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "MY_SUPER";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_GUI>, <&kp LEFT_GUI>, <&kt LEFT_GUI>;
+            bindings = <&kp LEFT_GUI>, <&kp LEFT_GUI>, <&sk LEFT_GUI>;
 
             tapping-term-ms = <270>;
         };
