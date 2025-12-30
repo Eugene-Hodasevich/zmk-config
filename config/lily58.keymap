@@ -67,11 +67,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3   &kp N4    &kp N5                                 &kp N6       &kp N7       &kp N8         &kp N9   &kp N0    &kp BACKSPACE
-&kp TAB    &kp Q   &kp W   &kp E    &kp R     &kp T                                  &kp Y        &kp U        &kp I          &kp O    &kp P     &kp LEFT_BRACKET
-&kp GRAVE  &kp A   &kp S   &kp D    &kp F     &kp G                                  &kp H        &kp J        &kp K          &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z   &kp X   &kp C    &kp V     &kp B      &kp CAPSLOCK    &kp DELETE  &kp N        &kp M        &kp COMMA      &kp DOT  &kp FSLH  &kp RSHFT
-                           &my_alt  &my_ctrl  &my_super  &kp ENTER       &kp SPACE   &my_layer_1  &my_layer_2  &kp RIGHT_ALT
+&kp ESC    &kp N1  &kp N2  &kp N3        &kp N4     &kp N5                                    &kp N6       &kp N7       &kp N8         &kp N9   &kp N0    &kp BACKSPACE
+&kp TAB    &kp Q   &kp W   &kp E         &kp R      &kp T                                     &kp Y        &kp U        &kp I          &kp O    &kp P     &kp LEFT_BRACKET
+&kp GRAVE  &kp A   &kp S   &kp D         &kp F      &kp G                                     &kp H        &kp J        &kp K          &kp L    &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z   &kp X   &kp C         &kp V      &kp B         &kp CAPSLOCK    &kp DELETE  &kp N        &kp M        &kp COMMA      &kp DOT  &kp FSLH  &kp RSHFT
+                           &kp LEFT_ALT  &kp LCTRL  &kp LEFT_GUI  &kp ENTER       &kp SPACE   &my_layer_1  &my_layer_2  &kp RIGHT_ALT
             >;
         };
 
@@ -84,11 +84,11 @@
             //                       |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &none  &none                &none              &none   &none                              &none         &none       &kp PAGE_UP    &none          &none                &none
-&trans  &none  &kp LG(PRINTSCREEN)  &kp C_VOLUME_UP    &none   &none                              &none         &kp K_BACK  &kp UP         &kp K_FORWARD  &none                &none
-&trans  &none  &kp PRINTSCREEN      &kp C_VOLUME_DOWN  &none   &none                              &kp LC(LEFT)  &kp LEFT    &kp DOWN       &kp RIGHT      &kp LC(RIGHT_ARROW)  &kp END
-&trans  &none  &kp LS(PRINTSCREEN)  &kp K_MUTE         &none   &none   &kp CAPSLOCK    &kp HOME   &none         &none       &kp PAGE_DOWN  &none          &none                &trans
-                                    &trans             &trans  &trans  &kp ENTER       &kp SPACE  &trans        &trans      &trans
+&trans  &none  &none                &none              &none             &none                                             &none         &none       &kp PAGE_UP    &none          &none                &none
+&trans  &none  &kp LG(PRINTSCREEN)  &kp C_VOLUME_UP    &kp C_NEXT        &kp C_BRIGHTNESS_INC                              &none         &kp K_BACK  &kp UP         &kp K_FORWARD  &none                &none
+&trans  &none  &kp PRINTSCREEN      &kp C_VOLUME_DOWN  &kp K_PREV        &kp C_BRIGHTNESS_DEC                              &kp LC(LEFT)  &kp LEFT    &kp DOWN       &kp RIGHT      &kp LC(RIGHT_ARROW)  &kp END
+&trans  &none  &kp LS(PRINTSCREEN)  &kp K_MUTE         &kp K_PLAY_PAUSE  &kp C_BRIGHTNESS_AUTO  &kp CAPSLOCK    &kp HOME   &none         &none       &kp PAGE_DOWN  &none          &none                &trans
+                                    &trans             &trans            &trans                 &kp ENTER       &kp SPACE  &trans        &trans      &trans
             >;
         };
 
